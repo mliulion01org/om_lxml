@@ -1,0 +1,18 @@
+<odoo>
+  <data>
+    <record
+      id="om_lxml.action_window"
+      model="ir.actions.act_window"
+    >
+      <field name="name">Act_window Hola LXML</field>
+      <field name="res_model">res.users</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem
+      id="om_lxml.menu_root"
+      name="Menuitem Hola LXML"
+      action="om_lxml.action_window"
+    />
+  </data>
+</odoo>
